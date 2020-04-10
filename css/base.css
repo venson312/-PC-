@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure{margin:0;padding:0}
+input{outline: none;}
+body{font:12px "宋体","Arial Narrow",HELVETICA;}
+a{color:#172c45;text-decoration:none} 
+a:hover{color:#cd0200;} 
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle; display: block} 
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.ind{text-indent:2em} 
+.ind10{text-indent:10px;}
+.noborder{border:0;}
+
+.w{width:1115px; margin: 0 auto;}
+.w1{width:100%; margin: 0 auto;}
+.l{float: left;}
+.r{float: right;}
+
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/iconfont.woff2') format('woff2'),
+      url('../font/iconfont.woff') format('woff'),
+      url('../font/iconfont.ttf') format('truetype'),
+      url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
